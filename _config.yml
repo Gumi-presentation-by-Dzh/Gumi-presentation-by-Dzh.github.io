@@ -19,14 +19,7 @@ permalink: /:year/:month/:day/:title/
 viewsourceroot: https://github.com/Gumi-presentation-by-Dzh/Gumi-presentation-by-Dzh.github.io/blob/master/
 # this is the url root of the create page link on the footer page.
 newsourceroot: https://github.com/Gumi-presentation-by-Dzh/Gumi-presentation-by-Dzh.github.io/new/master
-#########################################
-# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-# duoshuo_shortname: pfzuo
-# duoshuo_url: "http://pfzuo.duoshuo.com"
-# disqus.com commenting system. please note that it is exclusive with duoshuo.com
-# disqus_shortname: pfzuo
-# disqus_url: "http://pfzuo.github.io"
-#########################################
+
 
 
 # Build settings
