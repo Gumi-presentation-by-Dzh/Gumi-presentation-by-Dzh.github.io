@@ -18,13 +18,21 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
 
-		<!--
+		{% if page.url == "/" %}
+		<script language="javascript" type="text/javascript">  
+			if(window.location.href == "http://127.0.0.1:4001/index.html" || window.location.href == "https://gumi-presentation-by-dzh.github.io/index.html" || window.location.href == "http://gumi-presentation-by-dzh.github.io/index.html"){
+				
+			}else{
+				window.location.href="/homepage/";			
+			}  
+		</script>		
+		{% endif %}
+
 		{% if page.url == "/about/" %}
 		<script language="javascript" type="text/javascript">  		  
 			window.location.href="/homepage/";	
 		</script>		
 		{% endif %}
-		-->
 		
         {% for p in site.pages %}
           {% if p.title %}
