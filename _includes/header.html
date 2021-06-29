@@ -40,6 +40,9 @@
               {% else %}
               <li>
             {% endif %}
+			{% if p.title != "About" %}
+            <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon glyphicon-ok"></span> {{ p.title }}</a></li>
+			{% endif %}
           {% endif %}
         {% endfor %}
 		
