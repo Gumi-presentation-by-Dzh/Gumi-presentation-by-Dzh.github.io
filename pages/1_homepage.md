@@ -12,7 +12,8 @@ permalink: /homepage/
  
 ## Biography
  
-| <br> **Zhuohui Duan** is now a Ph.D. (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm) in Computer Science from Huazhong University of Science and Technology (HUST). 
+---
+<br> **Zhuohui Duan** is now a Ph.D. (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm) in Computer Science from Huazhong University of Science and Technology (HUST). 
 <br>He received M.E. degree (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm) in Computer Science from Huazhong University of Science and Technology (HUST) in 2018. 
 <br>He received B.E. degree in Computer Science from Jianghan University (JHUN) in 2016. 
 <br><br>He has published 4 refereed papers in major conferences (SC, ICDCS, ICCD, DATE) in the areas of computer system software and architecture, with a focus on non-volatile memory systems, storage <br>systems and techniques, remote direct memory access and distributed systems, wear balance and security.  
