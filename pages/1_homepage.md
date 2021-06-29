@@ -19,9 +19,9 @@ permalink: /homepage/
 
 ---
 #### 2021
-* **Zhuohui Duan**, Haodi Lu, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang, Song Wu, "Hardware-supported Remote Persistence for Distributed Persistent Memory", Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2021.
+* **Zhuohui Duan**, Haodi Lu, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang, Song Wu. "Hardware-supported Remote Persistence for Distributed Persistent Memory", Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2021.
 
-* **Zhuohui Duan**, Haikun Liu, Haodi Lu, Xiaofei Liao, Hai Jin, Yu Zhang, Bingsheng He, "Gengar: An RDMA-based Distributed Hybrid Memory Pool", Proceedings of the 41th IEEE International Conference on Distributed Computing Systems (ICDCS), 2021.
+* **Zhuohui Duan**, Haikun Liu, Haodi Lu, Xiaofei Liao, Hai Jin, Yu Zhang, Bingsheng He. "Gengar: An RDMA-based Distributed Hybrid Memory Pool", Proceedings of the 41th IEEE International Conference on Distributed Computing Systems (ICDCS), 2021.
 
 #### 2019
 
@@ -35,7 +35,7 @@ permalink: /homepage/
 
 ---
 
-* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin, "A Performance Emulator for Non-volatile Memory", Symposium on Operating Systems Principles Posters (SOSP Posters), 2017. [[slides](https://sosp17posters.hotcrp.com/doc/sosp17posters-paper43.pdf)]
+* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "A Performance Emulator for Non-volatile Memory", Symposium on Operating Systems Principles Posters (SOSP Posters), 2017. [[slides](https://sosp17posters.hotcrp.com/doc/sosp17posters-paper43.pdf)]
 
 
 ## Awards and Honors
