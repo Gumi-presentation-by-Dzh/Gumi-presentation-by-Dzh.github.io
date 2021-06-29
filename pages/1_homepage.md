@@ -29,7 +29,7 @@ permalink: /homepage/
 
 #### 2018
 
-* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "[HME: A Lightweight Emulator for Hybrid Memory](https://ieeexplore.ieee.org/abstract/document/8342227)", Proceeding of 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2019. <span style="color:red">([Best Paper Award Nominations](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html))</span> [[slides](https://past.date-conference.com/proceedings-archive/2018/pdf/0731.pdf)] [[code](https://github.com/CGCL-codes/HME)]
+* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "[HME: A Lightweight Emulator for Hybrid Memory](https://ieeexplore.ieee.org/abstract/document/8342227)", Proceeding of 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2019. ([<span style="color:red">Best Paper Award Nominations</span>](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)) [[slides](https://past.date-conference.com/proceedings-archive/2018/pdf/0731.pdf)] [[code](https://github.com/CGCL-codes/HME)]
 
 ## WiPs and Posters 
 
