@@ -44,7 +44,7 @@ permalink: /homepage/
 
 *  Best Paper Award Nominations in [DATE 2018](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)
 *  Student Grant from ICCD, 2019
-*  Award of Excellent M.E. graduate in HUST, 2018
+*  Award of Excellent M.E. Graduate in HUST, 2018
 *  National Scholarship for M.E. Graduate Students, 2017
 *  Excellent Graduate Student in HUST, 2017, and 2018
 *  ZhiXing Excellent Graduate Scholarship, 2017
