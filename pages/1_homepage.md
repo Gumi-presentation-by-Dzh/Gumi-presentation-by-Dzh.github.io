@@ -29,7 +29,7 @@ permalink: /homepage/
 
 #### 2018
 
-* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "[HME: A Lightweight Emulator for Hybrid Memory](https://ieeexplore.ieee.org/abstract/document/8342227)", Proceeding of 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2019. ([<span style="color:red">Best Paper Award Nominations</span>](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)) [[slides](https://past.date-conference.com/proceedings-archive/2018/pdf/0731.pdf)] [[code](https://github.com/CGCL-codes/HME)]
+* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "[HME: A Lightweight Emulator for Hybrid Memory](https://ieeexplore.ieee.org/abstract/document/8342227)", Proceeding of 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2018. ([<span style="color:red">Best Paper Award Nominations</span>](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)) [[slides](https://past.date-conference.com/proceedings-archive/2018/pdf/0731.pdf)] [[code](https://github.com/CGCL-codes/HME)]
 
 ## WiPs and Posters 
 
@@ -44,6 +44,7 @@ permalink: /homepage/
 
 *  Best Paper Award Nominations in [DATE 2018](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)
 *  Student Grant from ICCD, 2019
+*  Award of Excellent M.E. graduate in HUST, 2018
 *  National Scholarship for M.E. Graduate Students, 2017
 *  Excellent Graduate Student in HUST, 2017, and 2018
 *  ZhiXing Excellent Graduate Scholarship, 2017
