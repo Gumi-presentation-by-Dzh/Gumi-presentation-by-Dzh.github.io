@@ -25,6 +25,8 @@ While commercial NVM hardware exists for Intel Optane, its high cost of entry an
 
 * We exploit the DRAM thermal control interface provided by commodity Intel CPUs to limit the maximum memory bandwidth. It is more difficult to emulate NVM latency because current commodity hardware does not provide any knob to control the memory latency. Fortunately, we can program hardware performance counters to monitor the number of Last Level Cache (LLC) misses in a small time window (called epoch). The CPU stall time on a LLC miss can reflect the memory access latency. Thus, we inject additional software created delay (the difference between NVM and DRAM latencies) periodically to emulate the NVM latency. In this way, we slow down DRAM to mimic the performance characteristics of NVM
 
+* We implement HME on NUMA based Intel Xeon processors. For a given processor, we use DRAM on a remote NUMA node to emulate the higher-latency and lowerbandwidth NVM. To facilitate programming on hybrid memory systems, we also redesign the memory allocator to explicitly support memory allocation from DRAM or NVM regions. We modify Linux kernel to identify memory zones of NVM, and extend the Glibc library to support nvm malloc interface.
+
 ### Publication
 
 * **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "A Performance Emulator for Non-volatile Memory", Symposium on Operating Systems Principles Posters (SOSP Posters), 2017. [[slides](https://sosp17posters.hotcrp.com/doc/sosp17posters-paper43.pdf)]
@@ -41,6 +43,3 @@ While commercial NVM hardware exists for Intel Optane, its high cost of entry an
 
 ### Publication
 
-* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "A Performance Emulator for Non-volatile Memory", Symposium on Operating Systems Principles Posters (SOSP Posters), 2017. [[slides](https://sosp17posters.hotcrp.com/doc/sosp17posters-paper43.pdf)]
-
-* **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin. "[HME: A Lightweight Emulator for Hybrid Memory](https://ieeexplore.ieee.org/abstract/document/8342227)", Proceeding of 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2018. ([<span style="color:red">Best Paper Award Nominations</span>](https://past.date-conference.com/proceedings-archive/2018/html/bestpaper.html)) [[slides](https://past.date-conference.com/proceedings-archive/2018/pdf/0731.pdf)] [[code](https://github.com/CGCL-codes/HME)]
