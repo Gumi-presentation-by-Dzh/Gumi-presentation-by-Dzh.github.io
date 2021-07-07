@@ -55,3 +55,27 @@ Second, the default NUMA memory migration policy is not effective in hybrid memo
 
 * **Zhuohui Duan**, Haikun Liu, Xiaofei Liao, Hai Jin, Wenbin Jiang, Yu Zhang. "[HiNUMA: NUMA-aware Data Placement and Migration in Hybrid Memory Systems](https://ieeexplore.ieee.org/abstract/document/8988604)", Proceeding of 2019 IEEE 37th International Conference on Computer Design (ICCD), 2019. [[slides](https://scholar.google.com/scholar_url?url=https://wwww.easychair.org/publications/preprint_download/rv3h&hl=zh-CN&sa=T&oi=gsb-gga&ct=res&cd=0&d=1147414222658290591&ei=tcnaYOSNDIegyATW6L6gCA&scisig=AAGBfm0IlAsLh2r-2qc4e0bQN2j76IOHYg)]
 
+
+---
+>## 3. Gengar: An RDMA-based Distributed Hybrid Memory Pool
+
+### Overview
+
+Byte-addressable non-volatile memory (NVM) technologies like Intel Optane DC Persistent Memory Modules (DCPMM) promise high memory density, low cost per bit, and near-zero standby power consumption. They can offer tens of terabytes main memory in a single machine, and benefit many data center applications. However, because NVMs have limited write endurance and relatively lower read/write performance compared with DRAM, they are often utilized along with DRAM to form hybrid memory systems. Most previous studies on hybrid memory systems mainly focus on performance improvement and energy reduction in a singlemachine environment. There have been relatively few studies on utilizing DRAM and NVM efficiently in a Distributed Shared Hybrid Memory (DSHM) system.
+
+On the other hand, Remote Direct Memory Access (RDMA) technologies are able to provide low-latency remote memory accesses over networks. They have been widely utilized to improve networking performance in HPC and data center environments. Recently, the emergence of NVMs has inspired a few studies on RDMA-based distributed Persistent Memory (PM) and file systems. However, it is still unclear how to fully exploit high-performance RDMA hardware for DSHM systems.
+
+There remain several challenges to efficiently manage NVM and RDMA in a DSHM system. First, although DRAM buffering schemes have been widely exploited to speed up NVM accesses in a single server, they are no longer applicable for DSHM systems. Because RDMA operations bypass the remote server’s operating system (OS), traditional OS-supported memory monitoring mechanisms are hard to apply to RDMA-enabled DSHM environments. Second, most RDMA operations are asynchronous in nature, but unfortunately such feature has not been fully explored to reduce the high latency of RDMA write operations. The asynchronous communication mode of RDMA offers vast opportunities to optimize different building blocks of RDMA networking. For example, DaRPC and FaSST redesign RPCs to reduce the software overhead of RDMA communication. However, previous RDMA-based PM systems all exploit reliable connection mode (like TCP) to guarantee data persistence and consistency, and thus the data transfer latency is still on the critical path from the perspective of applications. Therefore, it is still an open problem on how to utilize asynchronous communication mode of RDMA while preserving data persistence and consistency.
+
+* We propose Gengar, an RDMA-enabled DSHM pool. Gengar exploits RDMA read/write verbs (i.e., one-sided RDMA model) to achieve low-latency remote memory accesses, without involving remote servers’ CPUs and OS. We also provide a set of simple APIs to facilitate RDMA programming for the DSHM pool.
+
+* We propose an efficient DRAM buffering scheme to accelerate remote NVM accesses. To identify frequently-read (hot) data in remote memory servers, we design a lightweight memory access monitoring mechanism by exploiting RDMA read/write semantics at the client side. The hot data is then cached in (local or remote) DRAM buffers to accelerate remote NVM accesses. We implement distributed DRAM buffers as write-through caches to only speed up NVM read operations, while RDMA write operations are directly performed on the NVM to guarantee data persistence. The DRAM buffering mechanism is performed by Gengar in the background, and is completely transparent to client applications.
+
+* We propose a novel RDMA write mode by redesigning RDMA write primitives. We still rely on reliable connection mode to guarantee lossless and in-order data transport. However, we exploit a proxy mechanism to wait for RDMA Work Completion (WC) events, allowing the execution of applications to overlap the RDMA data transferring. In this way, our RDMA write mode can hide the network round-trip time (RTT) of RDMA write operations from the critical path of applications.
+
+* We provides simple APIs to guarantee data consistency for object sharing in DSHM systems. Moreover, Gengar exploits a lease assignment mechanism to guarantee metadata consistency, and a lightweight write lock to guarantee data/metadata consistency.
+
+### Publication
+
+* **Zhuohui Duan**, Haikun Liu, Haodi Lu, Xiaofei Liao, Hai Jin, Yu Zhang, Bingsheng He. "Gengar: An RDMA-based Distributed Hybrid Memory Pool", Proceedings of the 41th IEEE International Conference on Distributed Computing Systems (ICDCS), 2021.
+
