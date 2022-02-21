@@ -12,12 +12,15 @@ permalink: /homepage/
  
 ## Biography
 
-|<br> **Zhuohui Duan** is now a Ph.D. (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm)) in Computer Science from Huazhong University of Science and Technology (HUST). <br>He received M.E. degree (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm)) in Computer Science from Huazhong University of Science and Technology (HUST) in 2018. <br>He received B.E. degree in Computer Science from Jianghan University (JHUN) in 2016. <br><br>He has published 4 refereed papers in major conferences (SC, ICDCS, ICCD, DATE) in the areas of computer system software and architecture, with <br>a focus on non-volatile memory systems, storage systems and techniques, remote direct memory access and distributed systems, wear balance and security.  <br><br>**Email:** <zhduan@hust.edu.cn>   <br> <br> | <br> &emsp; ![image](https://Gumi-presentation-by-Dzh.github.io/images/duan1.jpg) <br> <br> |
+|<br> **Zhuohui Duan** is now a Ph.D. (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm)) in Computer Science from Huazhong University of Science and Technology (HUST). <br>He received M.E. degree (advised by [Prof. Xiaofei Liao](http://faculty.hust.edu.cn/xfliao/zh_CN/index/1532409/list/index.htm) and [Prof. Haikun Liu](http://faculty.hust.edu.cn/liuhaikun/zh_CN/index.htm)) in Computer Science from Huazhong University of Science and Technology (HUST) in 2018. <br>He received B.E. degree in Computer Science from Jianghan University (JHUN) in 2016. <br><br>He has published 4 refereed papers in major conferences (SC, DAC, ICDCS, ICCD, DATE) in the areas of computer system software and architecture, with <br>a focus on non-volatile memory systems, storage systems and techniques, remote direct memory access and distributed systems, wear balance and security.  <br><br>**Email:** <zhduan@hust.edu.cn>   <br> <br> | <br> &emsp; ![image](https://Gumi-presentation-by-Dzh.github.io/images/duan1.jpg) <br> <br> |
 
 
 ## Publications
 
 ---
+#### 2022
+* **Zhuohui Duan**, Haobo Wang, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang and Fubing Mao. "CLIMBER: Defending Phase Change Memory Against Inconsistent Write Attacks", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022.
+
 #### 2021
 * **Zhuohui Duan**, Haodi Lu, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang, Song Wu. "Hardware-supported Remote Persistence for Distributed Persistent Memory", Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2021.
 
