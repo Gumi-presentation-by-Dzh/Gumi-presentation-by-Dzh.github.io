@@ -77,5 +77,4 @@ There remain several challenges to efficiently manage NVM and RDMA in a DSHM sys
 
 ### Publication
 
-* **Zhuohui Duan**, Haikun Liu, Haodi Lu, Xiaofei Liao, Hai Jin, Yu Zhang, Bingsheng He. "Gengar: An RDMA-based Distributed Hybrid Memory Pool", Proceedings of the 41th IEEE International Conference on Distributed Computing Systems (ICDCS), 2021.
-
+* **Zhuohui Duan**, Haikun Liu, Haodi Lu, Xiaofei Liao, Hai Jin, Yu Zhang, Bingsheng He. "[Gengar: An RDMA-based Distributed Hybrid Memory Pool](https://ieeexplore.ieee.org/abstract/document/9546450/)", Proceedings of the 41th IEEE International Conference on Distributed Computing Systems (ICDCS), 2021. [[code](https://github.com/CGCL-codes/gengar)]
