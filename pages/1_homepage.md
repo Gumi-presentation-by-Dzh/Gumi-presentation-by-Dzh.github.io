@@ -19,7 +19,9 @@ permalink: /homepage/
 
 ---
 #### 2022
-* **Zhuohui Duan**, Haobo Wang, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang and Fubing Mao. "CLIMBER: Defending Phase Change Memory Against Inconsistent Write Attacks", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022.
+* **Zhuohui Duan**, Haobo Wang, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang and Fubing Mao. "[CLIMBER: Defending Phase Change Memory Against Inconsistent Write Attacks](https://dl.acm.org/doi/abs/10.1145/3489517.3530546)", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022. [[slides](https://dl.acm.org/doi/pdf/10.1145/3489517.3530546)] [[code](https://github.com/CGCL-codes/CLIMBER)]
+
+
 
 #### 2021
 * **Zhuohui Duan**, Haodi Lu, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang, Song Wu. "[Hardware-supported Remote Persistence for Distributed Persistent Memory](https://dl.acm.org/doi/abs/10.1145/3458817.3476194?casa_token=BfcbTlpSFRIAAAAA:PURVD2bIoDXQBg3qd46CXIyYzVm48CXUonyAODi-k1zEd84swZ83bcJwXp4ebUPdBtnbyd-m0DL4kQ)", Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC), 2021. [[slides](https://dl.acm.org/doi/pdf/10.1145/3458817.3476194?casa_token=NrN52tZ0N50AAAAA:nT0nWxO5mM1BgMEw-U7Grob4ptVE3bG9n1DtEB1Ewb9rm15MangY0MPHRKupTzycJlvGXojEfuSdBg)] [[code](https://github.com/CGCL-codes/PRDMA)]
