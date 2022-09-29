@@ -22,7 +22,7 @@ permalink: /homepage/
 * **Zhuohui Duan**, Jiabo Yao, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang. "Revisiting Log-structured Merging for KV Stores in Hybrid Memory Systems", Proceedings of the International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2023.
 
 #### 2022
-* **Zhuohui Duan**, Haobo Wang, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang and Fubing Mao. "[CLIMBER: Defending Phase Change Memory Against Inconsistent Write Attacks](https://dl.acm.org/doi/abs/10.1145/3489517.3530546)", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022. [[slides](https://dl.acm.org/doi/pdf/10.1145/3489517.3530546)] [[code](https://github.com/CGCL-codes/CLIMBER)]
+* **Zhuohui Duan**, Haobo Wang, Haikun Liu, Xiaofei Liao, Hai Jin, Yu Zhang, Fubing Mao. "[CLIMBER: Defending Phase Change Memory Against Inconsistent Write Attacks](https://dl.acm.org/doi/abs/10.1145/3489517.3530546)", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022. [[slides](https://dl.acm.org/doi/pdf/10.1145/3489517.3530546)] [[code](https://github.com/CGCL-codes/CLIMBER)]
 
 * 	Huize Li, Hai Jin, Long Zheng, Yu Huang, Xiaofei Liao, **Zhuohui Duan**, Dan Chen, Chuangyi Gui. "[ReSMA: Accelerating Approximate String Matching Using ReRAM-based Content Addressable Memory](https://dl.acm.org/doi/abs/10.1145/3489517.3530559)", Proceedings of the ACM/EDAC/IEEE Design Automation Conference (DAC), 2022. [[slides](https://dl.acm.org/doi/pdf/10.1145/3489517.3530559)]
 
